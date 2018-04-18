@@ -26,7 +26,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `latest`, `4.0.0-1.0.0` [(Dockerfile-plugins)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.0/Dockerfile-plugins)
+* `latest`, `4.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.1/Dockerfile-plugins)
+* `4.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.0/Dockerfile-plugins)
 
 ## Quick reference
 
@@ -243,7 +244,7 @@ docker run --detach --rm --volume `pwd`:/jmeter egaillardon/jmeter-plugins -Jser
 ```
 
 #### Sending the content of the jmeter log file to console
-Set the `jmeterlogconf` option in order to use another [log4j2.xml file (see the example file provided)](log4j2.xml)
+Set the `jmeterlogconf` option in order to use another [log4j2.xml file (see the example file provided)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.1/log4j2.xml)
 
 ```
 docker run --detach --publish 1099:1099 --volume `pwd`:/jmeter --rm egaillardon/jmeter-plugins -Jserver.rmi.ssl.disable=true -Djava.rmi.server.hostname=192.168.1.15 -Jserver.rmi.localport=1099 -Dserver_port=1099 --server --jmeterlogconf log4j2.xml
@@ -285,4 +286,6 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
-None by now :)
+* 4.0.0-1.0.1 :
+ * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : change version to 2.1 from 2.0
+ * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : change version to 0.4 from 0.3
