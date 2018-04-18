@@ -10,9 +10,9 @@
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/egaillardon/jmeter-plugins.svg?style=plastic)](https://hub.docker.com/r/egaillardon/jmeter-plugins/)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/egaillardon/jmeter-plugins.svg?style=plastic)](https://hub.docker.com/r/egaillardon/jmeter-plugins/)
 
-* **Apache JMeter** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
+* ** Apache JMeter ** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
 
-* **JMeter Plugins** : an independent set of plugins - https://jmeter-plugins.org
+* ** JMeter Plugins ** : an independent set of plugins - https://jmeter-plugins.org
 
 * The **version number** is composed of two version numbers
   * the first is the version of the Apache JMeter embedded in this docker image
@@ -22,7 +22,7 @@
 
 * `egaillardon/jmeter-plugins`
 
-*** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/***
+*** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
 
