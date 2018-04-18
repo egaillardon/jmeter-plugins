@@ -287,5 +287,5 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 
 ## Changelog
 * 4.0.0-1.0.1 :
- * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : change version to 2.1 from 2.0
- * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : change version to 0.4 from 0.3
+   * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : change version to 2.1 from 2.0
+   * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : change version to 0.4 from 0.3
