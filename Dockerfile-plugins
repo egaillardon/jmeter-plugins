@@ -12,7 +12,7 @@ bzm-http2=1.1,\
 bzm-parallel=0.4,\
 bzm-random-csv=0.6,\
 custom-soap=1.3,\
-jmeter.backendlistener.elasticsearch=2.2.4,\
+jmeter.backendlistener.elasticsearch=2.2.5,\
 jpgc-autostop=0.1,\
 jpgc-casutg=2.5,\
 jpgc-cmd=2.1,\
@@ -64,5 +64,6 @@ tilln-wssecurity=1.5,\
 websocket-sampler=1.0.2-SNAPSHOT,\
 websocket-samplers=1.1 \
  && jmeter --version \
- && rm -fr /tmp/*  \
+ && rm -fr /tmp/* \
+ && rm -fr /jmeter/* \
  && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != 73 ]; then exit -1; fi
