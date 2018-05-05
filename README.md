@@ -10,9 +10,9 @@
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/egaillardon/jmeter-plugins.svg?style=plastic)](https://hub.docker.com/r/egaillardon/jmeter-plugins/)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/egaillardon/jmeter-plugins.svg?style=plastic)](https://hub.docker.com/r/egaillardon/jmeter-plugins/)
 
-* ** Apache JMeter ** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
+* **Apache JMeter** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
 
-* ** JMeter Plugins ** : an independent set of plugins - https://jmeter-plugins.org
+* **JMeter Plugins** : an independent set of plugins - https://jmeter-plugins.org
 
 * The **version number** is composed of two version numbers
   * the first is the version of the Apache JMeter embedded in this docker image
@@ -26,7 +26,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `latest`, `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
+* `latest`, `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
+* `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
 * `4.0.0-1.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.3/Dockerfile-plugins)
 * `4.0.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.2/Dockerfile-plugins)
 * `4.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.1/Dockerfile-plugins)
@@ -49,7 +50,11 @@
 
 ### Working directory
 
-The working directory defined in the Dockerfile is `/jmeter`
+The working directory defined in the Dockerfile is `/jmeter`.
+
+### Default User
+
+The default user is `jmeter`.
 
 ### Environment variables
 
@@ -141,10 +146,6 @@ docker run --detach --rm --volume `pwd`:/jmeter egaillardon/jmeter-plugins -Jser
 
 #### Command
 
-```
-docker run --interactive --tty --rm egaillardon/jmeter-plugins
-```
-or
 ```
 docker run --interactive --tty --rm egaillardon/jmeter-plugins
 ```
@@ -247,7 +248,7 @@ docker run --detach --rm --volume `pwd`:/jmeter egaillardon/jmeter-plugins -Jser
 ```
 
 #### Sending the content of the jmeter log file to console
-Set the `jmeterlogconf` option in order to use another [log4j2.xml file (see the example file provided)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/log4j2.xml)
+Set the `jmeterlogconf` option in order to use another [log4j2.xml file (see the example file provided)](https://github.com/egaillardon/jmeter-plugins/blob/master/log4j2.xml)
 
 ```
 docker run --detach --publish 1099:1099 --volume `pwd`:/jmeter --rm egaillardon/jmeter-plugins -Jserver.rmi.ssl.disable=true -Djava.rmi.server.hostname=192.168.1.15 -Jserver.rmi.localport=1099 -Dserver_port=1099 --server --jmeterlogconf log4j2.xml
@@ -289,6 +290,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-1.1.0 :
+   * Set the user `jmeter` when running the image
 * 4.0.0-1.0.4 :
    * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : change version to 0.5 from 0.4
 * 4.0.0-1.0.3 :

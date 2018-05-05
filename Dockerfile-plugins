@@ -1,6 +1,7 @@
-FROM egaillardon/jmeter:4.0.0-1.0.0
+FROM egaillardon/jmeter:4.0.0-1.1.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
 ENV CMDRUNNER_VERSION 2.0
+USER root
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager.jar https://jmeter-plugins.org/get/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
@@ -65,5 +66,5 @@ websocket-sampler=1.0.2-SNAPSHOT,\
 websocket-samplers=1.1 \
  && jmeter --version \
  && rm -fr /tmp/* \
- && rm -fr /jmeter/* \
  && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != 73 ]; then exit -1; fi
+USER jmeter
