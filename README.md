@@ -26,7 +26,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `latest`, `4.0.0-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.0/Dockerfile-plugins)
+* `latest`, `4.0.0-1.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.1/Dockerfile-plugins)
+* `4.0.0-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.0/Dockerfile-plugins)
 * `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
 * `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
 * `4.0.0-1.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.3/Dockerfile-plugins)
@@ -291,6 +292,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-1.2.1 :
+   * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.7 from 0.5
 * 4.0.0-1.2.0 :
    * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.0.1 from 0.20
    * [CMD Runner](https://jmeter-plugins.org/wiki/PluginsManagerAutomated/) : upgrade to 2.2.1 from 2.0

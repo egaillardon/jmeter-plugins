@@ -12,7 +12,7 @@ RUN cd /tmp/ \
 blazemeter-debugger=0.6,\
 bzm-hls=1.2,\
 bzm-http2=1.1,\
-bzm-parallel=0.5,\
+bzm-parallel=0.7,\
 bzm-random-csv=0.6,\
 custom-soap=1.3,\
 jmeter.backendlistener.elasticsearch=2.2.5,\
