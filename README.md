@@ -26,7 +26,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 
-* `latest`, `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
+* `latest`, `4.0.0-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.0/Dockerfile-plugins)
+* `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
 * `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
 * `4.0.0-1.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.3/Dockerfile-plugins)
 * `4.0.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.2/Dockerfile-plugins)
@@ -290,14 +291,17 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-1.2.0 :
+   * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.0.1 from 0.20
+   * [CMD Runner](https://jmeter-plugins.org/wiki/PluginsManagerAutomated/) : upgrade to 2.2.1 from 2.0
 * 4.0.0-1.1.0 :
    * Set the user `jmeter` when running the image
 * 4.0.0-1.0.4 :
-   * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : change version to 0.5 from 0.4
+   * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.5 from 0.4
 * 4.0.0-1.0.3 :
-   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : change version to 2.2.5 from 2.2.4
+   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.2.5 from 2.2.4
 * 4.0.0-1.0.2 :
-   * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : change version to 2.4 from 2.3
+   * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : upgrade to 2.4 from 2.3
 * 4.0.0-1.0.1 :
-   * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : change version to 2.1 from 2.0
-   * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : change version to 0.4 from 0.3
+   * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : upgrade to 2.1 from 2.0
+   * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : upgrade to 0.4 from 0.3
