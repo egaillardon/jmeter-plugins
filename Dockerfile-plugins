@@ -1,6 +1,6 @@
 FROM egaillardon/jmeter:4.0.0-1.1.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
-ENV JMETER_PLUGINS_MANAGER_VERSION 1.0.2
+ENV JMETER_PLUGINS_MANAGER_VERSION 1.2
 ENV CMDRUNNER_VERSION 2.2
 ENV CMDRUNNER_FULL_VERSION 2.2.1
 USER root
@@ -15,7 +15,7 @@ bzm-http2=1.2,\
 bzm-parallel=0.7,\
 bzm-random-csv=0.6,\
 custom-soap=1.3,\
-jmeter.backendlistener.elasticsearch=2.2.5,\
+jmeter.backendlistener.elasticsearch=2.3.1,\
 jpgc-autostop=0.1,\
 jpgc-casutg=2.5,\
 jpgc-cmd=2.1,\
@@ -53,10 +53,10 @@ jpgc-sense=3.4,\
 jpgc-standard=2.0,\
 jpgc-sts=2.3,\
 jpgc-synthesis=2.1,\
-jpgc-tst=2.4,\
+jpgc-tst=2.5,\
 jpgc-udp=0.3,\
 jpgc-webdriver=2.3,\
-jpgc-wsc=0.3,\
+jpgc-wsc=0.4,\
 jpgc-xml=0.1,\
 jpgc-xmpp=1.5.1,\
 kafkameter=0.2.0,\
@@ -66,8 +66,8 @@ ssh-sampler=1.1.1-SNAPSHOT,\
 tilln-sshmon=1.0,\
 tilln-wssecurity=1.5,\
 websocket-sampler=1.0.2-SNAPSHOT,\
-websocket-samplers=1.1 \
- && PluginsManagerCMD.sh status \
+websocket-samplers=1.2 \
+# && PluginsManagerCMD.sh status \
  && jmeter --version \
  && rm -fr /tmp/* \
  && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != 73 ]; then exit -1; fi
