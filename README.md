@@ -25,7 +25,8 @@
 *** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
-* `latest`, `4.0.0-2.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.3/Dockerfile-plugins)
+* `latest`, `4.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.0/Dockerfile-plugins)
+* `4.0.0-2.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.3/Dockerfile-plugins)
 * `4.0.0-2.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.2/Dockerfile-plugins)
 * `4.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.1/Dockerfile-plugins)
 * `4.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.0/Dockerfile-plugins)
@@ -297,6 +298,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-2.1.0 :
+  * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
 * 4.0.0-2.0.3 :
   * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2`
   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.3 from 2.4.1
