@@ -301,7 +301,7 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 * 4.0.0-2.1.0 :
   * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
 * 4.0.0-2.0.3 :
-  * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2`
+  * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2
   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.3 from 2.4.1
 * 4.0.0-2.0.2 :
   * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.5 from 0.4
