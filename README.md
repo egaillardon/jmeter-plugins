@@ -25,7 +25,8 @@
 *** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
-* `latest`, `4.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.0/Dockerfile-plugins)
+* `latest`, `4.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.1/Dockerfile-plugins)
+* `4.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.0/Dockerfile-plugins)
 * `4.0.0-2.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.3/Dockerfile-plugins)
 * `4.0.0-2.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.2/Dockerfile-plugins)
 * `4.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.1/Dockerfile-plugins)
@@ -298,6 +299,10 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-2.1.1 :
+  * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.4 from 1.3
+  * [Synthesis Report (jpgc-synthesis)](https://jmeter-plugins.org/wiki/SynthesisReport/) : upgrade to 2.2 from 2.1
+  * [BM.Sense Uploader (jpgc-sense)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/sense-uploader/BlazemeterPlugin.md) : upgrade to 3.5 from 3.4
 * 4.0.0-2.1.0 :
   * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
 * 4.0.0-2.0.3 :
