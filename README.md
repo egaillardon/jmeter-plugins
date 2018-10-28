@@ -25,7 +25,8 @@
 *** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
-* `latest`, `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
+* `latest`, `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
+* `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
 * `4.0.0-2.1.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.3/Dockerfile-plugins)
 * `4.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.2/Dockerfile-plugins)
 * `4.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.1/Dockerfile-plugins)
@@ -302,6 +303,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 4.0.0-2.2.0 :
+  * [Siebel CRM Recorder (bzm-siebel)](https://github.com/Blazemeter/SiebelPlugin/blob/master/README.md) : add 0.1.0-beta
 * 4.0.0-2.1.4 :
   * [Filter Results Tool (jpgc-filterresults)](https://jmeter-plugins.org/wiki/FilterResultsTool/) : upgrade to 2.2 from 2.1
   * [Custom Thread Groups (jpgc-casutg)](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/) : upgrade to 2.6 from 2.5
