@@ -25,7 +25,10 @@
 *** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
-* `latest`, `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
+* `latest`, `5.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.0/Dockerfile-jmeter5-plugins)
+
+
+* `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
 * `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
 * `4.0.0-2.1.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.3/Dockerfile-plugins)
 * `4.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.2/Dockerfile-plugins)
@@ -303,6 +306,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
+* 5.0.0-1.0.0
+  * Upgrade to Apache JMeter 5.0.0
 * 4.0.0-2.2.0 :
   * [Siebel CRM Recorder (bzm-siebel)](https://github.com/Blazemeter/SiebelPlugin/blob/master/README.md) : add 0.1.0-beta
 * 4.0.0-2.1.4 :
