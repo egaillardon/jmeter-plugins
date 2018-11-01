@@ -25,29 +25,33 @@
 *** For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/ ***
 
 ### Supported tags and respective `Dockerfile` links
-* `latest`, `5.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.0/Dockerfile-jmeter5-plugins)
+* Apache JMeter 5.0 (see changelog below)
+  * `latest`, `5.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.1/Dockerfile-jmeter5-plugins)
+  * `5.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.0/Dockerfile-jmeter5-plugins)
 
 
-* `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
-* `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
-* `4.0.0-2.1.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.3/Dockerfile-plugins)
-* `4.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.2/Dockerfile-plugins)
-* `4.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.1/Dockerfile-plugins)
-* `4.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.0/Dockerfile-plugins)
-* `4.0.0-2.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.3/Dockerfile-plugins)
-* `4.0.0-2.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.2/Dockerfile-plugins)
-* `4.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.1/Dockerfile-plugins)
-* `4.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.0/Dockerfile-plugins)
-* `4.0.0-1.2.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.3/Dockerfile-plugins)
-* `4.0.0-1.2.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.2/Dockerfile-plugins)
-* `4.0.0-1.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.1/Dockerfile-plugins)
-* `4.0.0-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.0/Dockerfile-plugins)
-* `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
-* `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
-* `4.0.0-1.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.3/Dockerfile-plugins)
-* `4.0.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.2/Dockerfile-plugins)
-* `4.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.1/Dockerfile-plugins)
-* `4.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.0/Dockerfile-plugins)
+* Apache JMeter 4.0 (see changelog below)
+  * `4.0.0-2.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.1/Dockerfile-plugins)
+  * `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
+  * `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
+  * `4.0.0-2.1.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.3/Dockerfile-plugins)
+  * `4.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.2/Dockerfile-plugins)
+  * `4.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.1/Dockerfile-plugins)
+  * `4.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.0/Dockerfile-plugins)
+  * `4.0.0-2.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.3/Dockerfile-plugins)
+  * `4.0.0-2.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.2/Dockerfile-plugins)
+  * `4.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.1/Dockerfile-plugins)
+  * `4.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.0.0/Dockerfile-plugins)
+  * `4.0.0-1.2.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.3/Dockerfile-plugins)
+  * `4.0.0-1.2.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.2/Dockerfile-plugins)
+  * `4.0.0-1.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.1/Dockerfile-plugins)
+  * `4.0.0-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.2.0/Dockerfile-plugins)
+  * `4.0.0-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.1.0/Dockerfile-plugins)
+  * `4.0.0-1.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.4/Dockerfile-plugins)
+  * `4.0.0-1.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.3/Dockerfile-plugins)
+  * `4.0.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.2/Dockerfile-plugins)
+  * `4.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.1/Dockerfile-plugins)
+  * `4.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-1.0.0/Dockerfile-plugins)
 
 ## Quick reference
 
@@ -306,65 +310,74 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ```
 
 ## Changelog
-* 5.0.0-1.0.0
-  * Upgrade to Apache JMeter 5.0.0
-* 4.0.0-2.2.0 :
-  * [Siebel CRM Recorder (bzm-siebel)](https://github.com/Blazemeter/SiebelPlugin/blob/master/README.md) : add 0.1.0-beta
-* 4.0.0-2.1.4 :
-  * [Filter Results Tool (jpgc-filterresults)](https://jmeter-plugins.org/wiki/FilterResultsTool/) : upgrade to 2.2 from 2.1
-  * [Custom Thread Groups (jpgc-casutg)](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/) : upgrade to 2.6 from 2.5
-  * [Selenium/WebDriver Support (jpgc-webdriver)](https://jmeter-plugins.org/wiki/WebDriverSampler/) : upgrade to 3.0 from 2.3
-  * [JSON/YAML Plugins (deprecated) (jpgc-json)](https://jmeter-plugins.org/wiki/JSONPathExtractor/) : upgrade to 2.7 from 2.6
-  * [Command-Line Graph Plotting Tool (jpgc-cmd)](https://jmeter-plugins.org/wiki/JMeterPluginsCMD/) : upgrade to 2.2 from 2.1
-  * [SSHMon Sample Collector (tilln-sshmon)](https://github.com/tilln/jmeter-sshmon) : upgrade to 1.1 from 1.0
-  * [Redis Data Set (jpgc-redis)](https://jmeter-plugins.org/wiki/RedisDataSet/) : upgrade to 0.3 from 0.2
-  * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.7 from 0.6
-  * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.1 from 2.5.0
-  * [WS Security for SOAP (tilln-wssecurity)](https://github.com/tilln/jmeter-wssecurity) : upgrade to 1.6 from 1.5
-  * [Test Plan Check Tool (jpgc-plancheck)](https://jmeter-plugins.org/wiki/TestPlanCheckTool/) : upgrade to 2.4 from 2.3
-* 4.0.0-2.1.3 :
-  * [Test Plan Check Tool (jpgc-plancheck)](https://jmeter-plugins.org/wiki/TestPlanCheckTool/) : upgrade to 2.3 from 2.2
-* 4.0.0-2.1.2 :
-  * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.0 from 2.4.3
-  * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.6 from 0.5
-* 4.0.0-2.1.1 :
-  * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.4 from 1.3
-  * [Synthesis Report (jpgc-synthesis)](https://jmeter-plugins.org/wiki/SynthesisReport/) : upgrade to 2.2 from 2.1
-  * [BM.Sense Uploader (jpgc-sense)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/sense-uploader/BlazemeterPlugin.md) : upgrade to 3.5 from 3.4
-* 4.0.0-2.1.0 :
-  * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
-* 4.0.0-2.0.3 :
-  * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2
-  * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.3 from 2.4.1
-* 4.0.0-2.0.2 :
-  * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.5 from 0.4
-* 4.0.0-2.0.1 :
-  * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.3 from 1.2
-  * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.1 from 2.3.1
-* 4.0.0-2.0.0 :
-   * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.3 from 1.2
-* 4.0.0-1.2.3 :
-   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.3.2 from 2.3.1
-* 4.0.0-1.2.2 :
-   * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.2 from 1.1
-   * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.2 from 1.0.1
-   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.3.1 from 2.2.5
-   * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : upgrade to 2.5 from 2.4
-   * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.4 from 0.3
-   * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2 from 1.1
-* 4.0.0-1.2.1 :
-   * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.7 from 0.5
-* 4.0.0-1.2.0 :
-   * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.0.1 from 0.20
-   * [CMD Runner](https://jmeter-plugins.org/wiki/PluginsManagerAutomated/) : upgrade to 2.2.1 from 2.0
-* 4.0.0-1.1.0 :
-   * Set the user `jmeter` when running the image
-* 4.0.0-1.0.4 :
-   * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.5 from 0.4
-* 4.0.0-1.0.3 :
-   * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.2.5 from 2.2.4
-* 4.0.0-1.0.2 :
-   * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : upgrade to 2.4 from 2.3
-* 4.0.0-1.0.1 :
-   * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : upgrade to 2.1 from 2.0
-   * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : upgrade to 0.4 from 0.3
+
+* Apache JMeter 5.0
+  * 5.0.0-1.0.0
+    * Upgrade to Apache JMeter 5.0.0
+  * 5.0.0-1.0.1
+    * [UDP Protocol Support (jpgc-udp)](https://jmeter-plugins.org/wiki/UDPRequest/) : upgrade to 0.4 from 0.3
+
+
+* Apache JMeter 4.0
+  * 4.0.0-2.2.1
+    * [UDP Protocol Support (jpgc-udp)](https://jmeter-plugins.org/wiki/UDPRequest/) : upgrade to 0.4 from 0.3
+  * 4.0.0-2.2.0 :
+    * [Siebel CRM Recorder (bzm-siebel)](https://github.com/Blazemeter/SiebelPlugin/blob/master/README.md) : add 0.1.0-beta
+  * 4.0.0-2.1.4 :
+    * [Filter Results Tool (jpgc-filterresults)](https://jmeter-plugins.org/wiki/FilterResultsTool/) : upgrade to 2.2 from 2.1
+    * [Custom Thread Groups (jpgc-casutg)](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/) : upgrade to 2.6 from 2.5
+    * [Selenium/WebDriver Support (jpgc-webdriver)](https://jmeter-plugins.org/wiki/WebDriverSampler/) : upgrade to 3.0 from 2.3
+    * [JSON/YAML Plugins (deprecated) (jpgc-json)](https://jmeter-plugins.org/wiki/JSONPathExtractor/) : upgrade to 2.7 from 2.6
+    * [Command-Line Graph Plotting Tool (jpgc-cmd)](https://jmeter-plugins.org/wiki/JMeterPluginsCMD/) : upgrade to 2.2 from 2.1
+    * [SSHMon Sample Collector (tilln-sshmon)](https://github.com/tilln/jmeter-sshmon) : upgrade to 1.1 from 1.0
+    * [Redis Data Set (jpgc-redis)](https://jmeter-plugins.org/wiki/RedisDataSet/) : upgrade to 0.3 from 0.2
+    * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.7 from 0.6
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.1 from 2.5.0
+    * [WS Security for SOAP (tilln-wssecurity)](https://github.com/tilln/jmeter-wssecurity) : upgrade to 1.6 from 1.5
+    * [Test Plan Check Tool (jpgc-plancheck)](https://jmeter-plugins.org/wiki/TestPlanCheckTool/) : upgrade to 2.4 from 2.3
+  * 4.0.0-2.1.3 :
+    * [Test Plan Check Tool (jpgc-plancheck)](https://jmeter-plugins.org/wiki/TestPlanCheckTool/) : upgrade to 2.3 from 2.2
+  * 4.0.0-2.1.2 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.0 from 2.4.3
+    * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.6 from 0.5
+  * 4.0.0-2.1.1 :
+    * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.4 from 1.3
+    * [Synthesis Report (jpgc-synthesis)](https://jmeter-plugins.org/wiki/SynthesisReport/) : upgrade to 2.2 from 2.1
+    * [BM.Sense Uploader (jpgc-sense)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/sense-uploader/BlazemeterPlugin.md) : upgrade to 3.5 from 3.4
+  * 4.0.0-2.1.0 :
+    * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
+  * 4.0.0-2.0.3 :
+    * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.3 from 2.4.1
+  * 4.0.0-2.0.2 :
+    * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.5 from 0.4
+  * 4.0.0-2.0.1 :
+    * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.3 from 1.2
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.1 from 2.3.1
+  * 4.0.0-2.0.0 :
+     * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.3 from 1.2
+  * 4.0.0-1.2.3 :
+     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.3.2 from 2.3.1
+  * 4.0.0-1.2.2 :
+     * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.2 from 1.1
+     * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.2 from 1.0.1
+     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.3.1 from 2.2.5
+     * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : upgrade to 2.5 from 2.4
+     * [Weighted Switch Controller (jpgc-wsc)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/wsc/WeightedSwitchController.md) : upgrade to 0.4 from 0.3
+     * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2 from 1.1
+  * 4.0.0-1.2.1 :
+     * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.7 from 0.5
+  * 4.0.0-1.2.0 :
+     * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.0.1 from 0.20
+     * [CMD Runner](https://jmeter-plugins.org/wiki/PluginsManagerAutomated/) : upgrade to 2.2.1 from 2.0
+  * 4.0.0-1.1.0 :
+     * Set the user `jmeter` when running the image
+  * 4.0.0-1.0.4 :
+     * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.5 from 0.4
+  * 4.0.0-1.0.3 :
+     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.2.5 from 2.2.4
+  * 4.0.0-1.0.2 :
+     * [Throughput Shaping Timer (jpgc-tst)](https://jmeter-plugins.org/wiki/ThroughputShapingTimer/) : upgrade to 2.4 from 2.3
+  * 4.0.0-1.0.1 :
+     * [Custom JMeter Functions (jpgc-functions)](https://jmeter-plugins.org/wiki/Functions/) : upgrade to 2.1 from 2.0
+     * [Parameterized Controller & Set Variables Action (jpgc-prmctl)](https://jmeter-plugins.org/wiki/ParameterizedController/) : upgrade to 0.4 from 0.3
