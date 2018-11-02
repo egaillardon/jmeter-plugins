@@ -26,11 +26,13 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.0 (see changelog below)
-  * `latest`, `5.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.1/Dockerfile-jmeter5-plugins)
+  * `latest`, `5.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.0/Dockerfile-jmeter5-plugins)
+  * `5.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.1/Dockerfile-jmeter5-plugins)
   * `5.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.0/Dockerfile-jmeter5-plugins)
 
 
 * Apache JMeter 4.0 (see changelog below)
+  * `4.0.0-3.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.0.0/Dockerfile-plugins)
   * `4.0.0-2.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.1/Dockerfile-plugins)
   * `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
   * `4.0.0-2.1.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.1.4/Dockerfile-plugins)
@@ -312,6 +314,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ## Changelog
 
 * Apache JMeter 5.0
+  * 5.0.0-2.0.0
+    * Change docker image base version to `egaillardon/jmeter:5.0.0-1.1.0`
   * 5.0.0-1.0.0
     * Upgrade to Apache JMeter 5.0.0
   * 5.0.0-1.0.1
@@ -319,6 +323,8 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 
 
 * Apache JMeter 4.0
+  * 4.0.0-3.0.0
+    * Change docker image base version to `egaillardon/jmeter:4.0.0-1.2.0`
   * 4.0.0-2.2.1
     * [UDP Protocol Support (jpgc-udp)](https://jmeter-plugins.org/wiki/UDPRequest/) : upgrade to 0.4 from 0.3
   * 4.0.0-2.2.0 :
