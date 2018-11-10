@@ -26,12 +26,14 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.0 (see changelog below)
-  * `latest`, `5.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.0/Dockerfile-jmeter5-plugins)
+  * `latest`, `5.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.1/Dockerfile-jmeter5-plugins)
+  * `5.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.0/Dockerfile-jmeter5-plugins)
   * `5.0.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.1/Dockerfile-jmeter5-plugins)
   * `5.0.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-1.0.0/Dockerfile-jmeter5-plugins)
 
 
 * Apache JMeter 4.0 (see changelog below)
+  * `4.0.0-3.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.0.1/Dockerfile-plugins)
   * `4.0.0-3.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.0.0/Dockerfile-plugins)
   * `4.0.0-2.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.1/Dockerfile-plugins)
   * `4.0.0-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-2.2.0/Dockerfile-plugins)
@@ -314,6 +316,9 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 ## Changelog
 
 * Apache JMeter 5.0
+  * 5.0.0-2.0.1
+    * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.8 from 0.7
+    * [Custom SOAP Sampler (custom-soap)](https://github.com/spinning10/JMeterSoapSampler/wiki) : upgrade to 1.3.3 from 1.3
   * 5.0.0-2.0.0
     * Change docker image base version to `egaillardon/jmeter:5.0.0-1.1.0`
   * 5.0.0-1.0.0
@@ -323,6 +328,9 @@ docker run --detach --publish 1099:1099 --env TZ=Europe/Paris --rm egaillardon/j
 
 
 * Apache JMeter 4.0
+  * 4.0.0-3.0.1
+    * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.8 from 0.7
+    * [Custom SOAP Sampler (custom-soap)](https://github.com/spinning10/JMeterSoapSampler/wiki) : upgrade to 1.3.3 from 1.3
   * 4.0.0-3.0.0
     * Change docker image base version to `egaillardon/jmeter:4.0.0-1.2.0`
   * 4.0.0-2.2.1
