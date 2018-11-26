@@ -11,7 +11,7 @@ RUN cd /tmp/ \
 blazemeter-debugger=0.6,\
 bzm-hls=1.2,\
 bzm-http2=1.4,\
-bzm-parallel=0.8,\
+bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
 bzm-rte=1.0.4,\
 bzm-siebel=0.1.0-beta,\
