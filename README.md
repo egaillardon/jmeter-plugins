@@ -26,7 +26,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.0 (see changelog below)
-  * `latest`, `5.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.1.1/Dockerfile-jmeter5-plugins)
+  * `latest`, `5.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.1.2/Dockerfile-jmeter5-plugins)
+  * `5.0.0-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.1.1/Dockerfile-jmeter5-plugins)
   * `5.0.0-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.1.0/Dockerfile-jmeter5-plugins)
   * `5.0.0-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.1/Dockerfile-jmeter5-plugins)
   * `5.0.0-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.0.0/Dockerfile-jmeter5-plugins)
@@ -35,6 +36,7 @@
 
 
 * Apache JMeter 4.0 (see changelog below)
+  * `4.0.0-3.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.1.2/Dockerfile-jmeter4-plugins)
   * `4.0.0-3.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.1.1/Dockerfile-jmeter4-plugins)
   * `4.0.0-3.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.1.0/Dockerfile-jmeter4-plugins)
   * `4.0.0-3.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.0.1/Dockerfile-jmeter4-plugins)
@@ -328,6 +330,8 @@ docker run --env JMETER_GROUP_ID=`/usr/bin/id -g` --env JMETER_USER_ID=`/usr/bin
 ## Changelog
 
 * Apache JMeter 5.0
+  * 5.0.0-2.1.2 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.2 from 2.5.1
   * 5.0.0-2.1.1 :
     * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.9 from 0.8
   * 5.0.0-2.1.0 :
@@ -344,6 +348,8 @@ docker run --env JMETER_GROUP_ID=`/usr/bin/id -g` --env JMETER_USER_ID=`/usr/bin
 
 
 * Apache JMeter 4.0
+  * 4.0.0-3.1.2 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.2 from 2.5.1
   * 4.0.0-3.1.1 :
     * [Parallel Controller & Sampler (bzm-parallel)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/parallel/Parallel.md) : upgrade to 0.9 from 0.8
   * 4.0.0-3.1.0 :
