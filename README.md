@@ -13,7 +13,8 @@
 [![Github Forks](https://img.shields.io/github/forks/egaillardon/jmeter-plugins.svg?style=social)](https://github.com/egaillardon/jmeter-plugins)
 
 [![Follow](https://img.shields.io/twitter/follow/gamanu_fr.svg?label=Follow&style=social)](https://twitter.com/gamanu_fr)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=@gamanu_fr - Docker image for Apache JMeter and JMeter plugins - https://hub.docker.com/r/egaillardon/jmeter-plugins : )
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=@gamanu_fr - Docker image for Apache JMeter and JMeter plugins - https://hub.docker.com/r/egaillardon/jmeter-plugins :)
+
 
 * **Apache JMeter** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
 
