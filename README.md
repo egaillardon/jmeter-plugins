@@ -33,7 +33,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.0 (see changelog below)
-  * `latest`, `5.0.0-6.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.0/Dockerfile-jmeter5-plugins)
+  * `latest`, `5.0.0-6.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.1/Dockerfile-jmeter5-plugins)
+  * `5.0.0-6.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.0/Dockerfile-jmeter5-plugins)
   * `5.0.0-5.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-5.0.0/Dockerfile-jmeter5-plugins)
   * `5.0.0-4.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-4.0.0/Dockerfile-jmeter5-plugins)
   * `5.0.0-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-2.1.2/Dockerfile-jmeter5-plugins)
@@ -46,6 +47,7 @@
 
 
 * Apache JMeter 4.0 (see changelog below)
+  * `4.0.0-6.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.1/Dockerfile-jmeter4-plugins)
   * `4.0.0-6.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.0/Dockerfile-jmeter4-plugins)
   * `4.0.0-5.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-5.0.0/Dockerfile-jmeter4-plugins)
   * `4.0.0-3.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-3.1.2/Dockerfile-jmeter4-plugins)
@@ -301,6 +303,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.0
+  * 5.0.0-6.0.1 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.3 from 2.5.2
   * 5.0.0-6.0.0 :
     * Change docker base image version to `egaillardon/jmeter:5.0.0-2.1.1`
   * 5.0.0-5.0.0 :
@@ -325,6 +329,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 
 
 * Apache JMeter 4.0
+  * 4.0.0-6.0.1 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.5.3 from 2.5.2
   * 4.0.0-6.0.0 :
     * Change docker base image version to `egaillardon/jmeter:4.0.0-2.1.1`
   * 4.0.0-5.0.0 :
