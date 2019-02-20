@@ -32,8 +32,13 @@
 ***For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/***
 
 ### Supported tags and respective `Dockerfile` links
+* Apache JMeter 5.1 (see changelog below)
+  * `latest`, `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
+
+
 * Apache JMeter 5.0 (see changelog below)
-  * `latest`, `5.0.0-6.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.4/Dockerfile-jmeter5-plugins)
+  * **No more new 5.0 version (02/20/2019)**
+  * `5.0.0-6.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.4/Dockerfile-jmeter5-plugins)
   * `5.0.0-6.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.3/Dockerfile-jmeter5-plugins)
   * `5.0.0-6.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.2/Dockerfile-jmeter5-plugins)
   * `5.0.0-6.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.1/Dockerfile-jmeter5-plugins)
@@ -50,6 +55,7 @@
 
 
 * Apache JMeter 4.0 (see changelog below)
+  * **No more new 4.0 version (02/20/2019)**
   * `4.0.0-6.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.4/Dockerfile-jmeter4-plugins)
   * `4.0.0-6.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.3/Dockerfile-jmeter4-plugins)
   * `4.0.0-6.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.2/Dockerfile-jmeter4-plugins)
@@ -210,6 +216,8 @@ The default user is `jmeter`.
   run JMeter in nongui mode
 -s, --server
   run the JMeter server
+-E, --proxyScheme <argument>
+  Set a proxy scheme to use for the proxy server
 -H, --proxyHost <argument>
   Set a proxy server for JMeter to use
 -P, --proxyPort <argument>
@@ -231,7 +239,8 @@ The default user is `jmeter`.
 -S, --systemPropertyFile <argument>
   additional system property file(s)
 -f, --forceDeleteResultFile
-  force delete existing results files before start the test
+  force delete existing results files and web report folder if
+   present before starting the test
 -L, --loglevel <argument>=<value>
   [category=]level e.g. jorphan=INFO, jmeter.util=DEBUG or com
   .example.foo=WARN
@@ -307,6 +316,11 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 `docker run --env JMETER_GROUP_ID=`/usr/bin/id -g` --env JMETER_USER_ID=`/usr/bin/id -u` --rm egaillardon/jmeter --server -Jserver.rmi.ssl.disable=true`
 
 ## Changelog
+
+* Apache JMeter 5.1
+  * 5.1.0-1.0.0 :
+    * Change docker base image version to `egaillardon/jmeter:5.1.0-1.0.0`
+
 
 * Apache JMeter 5.0
   * 5.0.0-6.0.4 :

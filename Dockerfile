@@ -1,11 +1,15 @@
-FROM egaillardon/jmeter:4.0.0-2.1.1
+FROM egaillardon/jmeter:5.1.0-1.0.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
 ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
+ENV JSON_LIB_VERSION 2.4
+ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
+ENV NUMBER_OF_FILES_UNDER_LIB 144
 ENV NUMBER_OF_FILES_UNDER_LIB_EXT 74
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
+ && curl --location --silent --show-error --output ${JMETER_HOME}/lib/json-lib-${JSON_LIB_FULL_VERSION}.jar https://search.maven.org/remotecontent?filepath=net/sf/json-lib/json-lib/${JSON_LIB_VERSION}/json-lib-${JSON_LIB_FULL_VERSION}.jar \
  && java -cp ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar org.jmeterplugins.repository.PluginManagerCMDInstaller \
  && PluginsManagerCMD.sh install \
 blazemeter-debugger=0.6,\
@@ -46,7 +50,7 @@ jpgc-mergeresults=2.1,\
 jpgc-pde=0.1,\
 jpgc-perfmon=2.1,\
 jpgc-plancheck=2.4,\
-jpgc-plugins-manager=${JMETER_PLUGINS_MANAGER_VERSION},\
+# jpgc-plugins-manager=${JMETER_PLUGINS_MANAGER_VERSION},\
 jpgc-prmctl=0.4,\
 jpgc-redis=0.3,\
 jpgc-rotating-listener=0.2,\
@@ -71,5 +75,6 @@ websocket-samplers=1.2.1 \
  && jmeter --version \
  && PluginsManagerCMD.sh status \
  && chmod +x ${JMETER_HOME}/bin/*.sh \
- && rm -fr /tmp/* \
- && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB_EXT} ]; then exit -1; fi
+ && if [ `ls -l /opt/apache-jmeter-*/lib/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB} ]; then exit -1; fi \
+ && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB_EXT} ]; then exit -1; fi \
+ && rm -fr /tmp/*
