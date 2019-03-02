@@ -33,7 +33,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.1 (see changelog below)
-  * `latest`, `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
+  * `latest`, `5.1.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.1/Dockerfile)
+  * `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
 
 
 * Apache JMeter 5.0 (see changelog below)
@@ -318,6 +319,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1
+  * 5.1.0-1.0.1 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.0 from 2.5.4
   * 5.1.0-1.0.0 :
     * Change docker base image version to `egaillardon/jmeter:5.1.0-1.0.0`
 
