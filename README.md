@@ -33,7 +33,8 @@
 
 ### Supported tags and respective `Dockerfile` links
 * Apache JMeter 5.1 (see changelog below)
-  * `latest`, `5.1.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.1/Dockerfile)
+  * `latest`, `5.1.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.2/Dockerfile)
+  * `5.1.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.1/Dockerfile)
   * `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
 
 
@@ -319,6 +320,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1
+  * 5.1.0-1.0.2 :
+    * [Custom Thread Groups (jpgc-casutg)](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/) : upgrade to 2.8 from 2.7
   * 5.1.0-1.0.1 :
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.0 from 2.5.4
   * 5.1.0-1.0.0 :
