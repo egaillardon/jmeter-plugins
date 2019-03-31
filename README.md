@@ -12,8 +12,8 @@
 [![Github Stars](https://img.shields.io/github/stars/egaillardon/jmeter-plugins.svg?style=social)](https://github.com/egaillardon/jmeter-plugins)
 [![Github Forks](https://img.shields.io/github/forks/egaillardon/jmeter-plugins.svg?style=social)](https://github.com/egaillardon/jmeter-plugins)
 
-[![Follow](https://img.shields.io/twitter/follow/gamanu_fr.svg?label=Follow&style=social)](https://twitter.com/gamanu_fr)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%40gamanu_fr%20-%20Docker%20image%20for%20Apache%20JMeter%20and%20JMeter%20plugins%20-%20https%3A%2F%2Fhub.docker.com%2Fr%2Fegaillardon%2Fjmeter-plugins%20%3A)
+[![Follow](https://img.shields.io/twitter/follow/egaillardon_org.svg?label=Follow&style=social)](https://twitter.com/egaillardon_org)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%40egaillardon_org%20-%20Docker%20image%20for%20Apache%20JMeter%20and%20JMeter%20plugins%20-%20https%3A%2F%2Fhub.docker.com%2Fr%2Fegaillardon%2Fjmeter-plugins%20%3A)
 
 
 * **Apache JMeter** : an application designed to load test functional behavior and measure performance - https://jmeter.apache.org
@@ -32,8 +32,14 @@
 ***For a Docker image containing only Apache JMeter, see https://hub.docker.com/r/egaillardon/jmeter/***
 
 ### Supported tags and respective `Dockerfile` links
+
+* Apache JMeter 5.1.1 (see changelog below)
+  * `latest`, `5.1.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.0/Dockerfile)
+
+
 * Apache JMeter 5.1 (see changelog below)
-  * `latest`, `5.1.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.2/Dockerfile)
+  * **No more new 5.1 version (03/31/2019)**
+  * `5.1.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.2/Dockerfile)
   * `5.1.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.1/Dockerfile)
   * `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
 
@@ -319,6 +325,13 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 
 ## Changelog
 
+* Apache JMeter 5.1.1
+  * 5.1.1-1.0.0 :
+    * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 1.1 from 1.0.4
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.1 from 2.6.0
+    * Change docker base image version to `egaillardon/jmeter:5.1.1-1.0.0`
+
+
 * Apache JMeter 5.1
   * 5.1.0-1.0.2 :
     * [Custom Thread Groups (jpgc-casutg)](https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/) : upgrade to 2.8 from 2.7
@@ -412,7 +425,7 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
     * [Synthesis Report (jpgc-synthesis)](https://jmeter-plugins.org/wiki/SynthesisReport/) : upgrade to 2.2 from 2.1
     * [BM.Sense Uploader (jpgc-sense)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/sense-uploader/BlazemeterPlugin.md) : upgrade to 3.5 from 3.4
   * 4.0.0-2.1.0 :
-    * [RTE Protocol Support (bzm-rte)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : add 1.0.4
+    * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : add 1.0.4
   * 4.0.0-2.0.3 :
     * [WebSocket Samplers by Peter Doornbosch (websocket-samplers)](https://bitbucket.org/pjtr/jmeter-websocket-samplers/overview) : upgrade to 1.2.1 from 1.2
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.4.3 from 2.4.1

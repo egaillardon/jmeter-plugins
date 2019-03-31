@@ -1,4 +1,4 @@
-FROM egaillardon/jmeter:5.1.0-1.0.0
+FROM egaillardon/jmeter:5.1.1-1.0.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
 ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
@@ -17,10 +17,10 @@ bzm-hls=1.2,\
 bzm-http2=1.4,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=1.0.4,\
+bzm-rte=1.1,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
-jmeter.backendlistener.elasticsearch=2.6.0,\
+jmeter.backendlistener.elasticsearch=2.6.1,\
 jpgc-autostop=0.1,\
 jpgc-casutg=2.8,\
 jpgc-cmd=2.2,\
