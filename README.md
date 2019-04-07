@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.0/Dockerfile)
+  * `latest`, `5.1.1-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.1/Dockerfile)
+  * `5.1.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.0/Dockerfile)
 
 
 * Apache JMeter 5.1 (see changelog below)
@@ -326,6 +327,9 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-1.0.1 :
+    * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 1.1.1 from 1.1
+    * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 1.3 from 1.2
   * 5.1.1-1.0.0 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 1.1 from 1.0.4
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.1 from 2.6.0

@@ -13,11 +13,11 @@ RUN cd /tmp/ \
  && java -cp ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar org.jmeterplugins.repository.PluginManagerCMDInstaller \
  && PluginsManagerCMD.sh install \
 blazemeter-debugger=0.6,\
-bzm-hls=1.2,\
+bzm-hls=1.3,\
 bzm-http2=1.4,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=1.1,\
+bzm-rte=1.1.1,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
 jmeter.backendlistener.elasticsearch=2.6.1,\
