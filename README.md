@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.1/Dockerfile)
+  * `latest`, `5.1.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.0/Dockerfile)
+  * `5.1.1-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.1/Dockerfile)
   * `5.1.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.0/Dockerfile)
 
 
@@ -327,6 +328,9 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1.1
+
+  * 5.1.1-1.1.0 :
+    * [JMeter Listener pack (jmeter.pack-listener)](https://gitlab.com/testload/jmeter-listener/wikis/home) : add 1.5
   * 5.1.1-1.0.1 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 1.1.1 from 1.1
     * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 1.3 from 1.2

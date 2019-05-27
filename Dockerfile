@@ -5,7 +5,7 @@ ENV CMDRUNNER_VERSION 2.2
 ENV JSON_LIB_VERSION 2.4
 ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
 ENV NUMBER_OF_FILES_UNDER_LIB 144
-ENV NUMBER_OF_FILES_UNDER_LIB_EXT 74
+ENV NUMBER_OF_FILES_UNDER_LIB_EXT 75
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
@@ -21,6 +21,7 @@ bzm-rte=1.1.1,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
 jmeter.backendlistener.elasticsearch=2.6.1,\
+jmeter.pack-listener=1.5,\
 jpgc-autostop=0.1,\
 jpgc-casutg=2.8,\
 jpgc-cmd=2.2,\
