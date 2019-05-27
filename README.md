@@ -328,7 +328,6 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1.1
-
   * 5.1.1-1.1.0 :
     * [JMeter Listener pack (jmeter.pack-listener)](https://gitlab.com/testload/jmeter-listener/wikis/home) : add 1.5
   * 5.1.1-1.0.1 :
