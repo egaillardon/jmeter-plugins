@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.0/Dockerfile)
+  * `latest`, `5.1.1-1.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.1/Dockerfile)
+  * `5.1.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.0/Dockerfile)
   * `5.1.1-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.1/Dockerfile)
   * `5.1.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.0.0/Dockerfile)
 
@@ -328,6 +329,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-1.1.1 :
+    * [JMeter Listener pack (jmeter.pack-listener)](https://gitlab.com/testload/jmeter-listener/wikis/home) : upgrade to 1.7 from 1.5
   * 5.1.1-1.1.0 :
     * [JMeter Listener pack (jmeter.pack-listener)](https://gitlab.com/testload/jmeter-listener/wikis/home) : add 1.5
   * 5.1.1-1.0.1 :
