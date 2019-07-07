@@ -330,6 +330,23 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 
 `docker run --env JMETER_GROUP_ID=`/usr/bin/id -g` --env JMETER_USER_ID=`/usr/bin/id -u` --rm egaillardon/jmeter --server -Jserver.rmi.ssl.disable=true`
 
+#### Running JMeter in GUI mode from Docker using X11-forwarding ([Pull request #2](https://github.com/egaillardon/jmeter/pull/2) submitted by [@ericpeters](https://twitter.com/ericpeters))
+
+##### Install Quartz
+  * Install the latest XQuartz X11 server (https://www.xquartz.org/) and run it
+  * Activate the option ‘Allow connections from network clients’ in XQuartz settings
+  * Quit & restart XQuartz (to activate the setting)
+
+##### Run Interactive UI
+
+```bash
+# allow access from localhost
+xhost + 127.0.0.1
+
+docker pull egaillardon/jmeter-plugins
+docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardon/jmeter-plugins jmeter.sh
+```
+
 ## Changelog
 
 * Apache JMeter 5.1.1
