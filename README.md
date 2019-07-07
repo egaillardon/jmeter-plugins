@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.0.1/Dockerfile)
+  * `latest`, `5.1.1-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.0/Dockerfile)
+  * `5.1.1-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.0.1/Dockerfile)
   * `5.1.1-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.0.0/Dockerfile)
   * `5.1.1-1.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.2/Dockerfile)
   * `5.1.1-1.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-1.1.1/Dockerfile)
@@ -332,6 +333,8 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-2.1.0 :
+    * [JKafka backend listener (jmeter.backendlistener.kafka)](https://github.com/rahulsinghai/jmeter-backend-listener-kafka/issues) : add 1.0.0
   * 5.1.1-2.0.1 :
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.5 from 2.6.1
     * [Dummy Sampler (jpgc-dummy)](https://jmeter-plugins.org/wiki/DummySampler/) : upgrade to 0.4 from 0.2
