@@ -334,7 +334,7 @@ See [Apache JMeter Remote Testing](http://jmeter.apache.org/usermanual/remote-te
 
 * Apache JMeter 5.1.1
   * 5.1.1-2.1.0 :
-    * [JKafka backend listener (jmeter.backendlistener.kafka)](https://github.com/rahulsinghai/jmeter-backend-listener-kafka/issues) : add 1.0.0
+    * [Kafka backend listener (jmeter.backendlistener.kafka)](https://github.com/rahulsinghai/jmeter-backend-listener-kafka/issues) : add 1.0.0
   * 5.1.1-2.0.1 :
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.5 from 2.6.1
     * [Dummy Sampler (jpgc-dummy)](https://jmeter-plugins.org/wiki/DummySampler/) : upgrade to 0.4 from 0.2
