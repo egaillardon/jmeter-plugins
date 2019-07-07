@@ -1,4 +1,4 @@
-FROM egaillardon/jmeter:5.1.1-1.0.0
+FROM egaillardon/jmeter:5.1.1-1.1.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
 ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
