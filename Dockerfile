@@ -17,7 +17,7 @@ bzm-hls=1.3,\
 bzm-http2=1.4,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=1.1.1,\
+bzm-rte=2.0,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
 jmeter.backendlistener.elasticsearch=2.6.7,\
@@ -29,7 +29,7 @@ jpgc-cmd=2.2,\
 jpgc-csl=0.1,\
 jpgc-csvars=0.1,\
 jpgc-dbmon=0.1,\
-jpgc-directory-listing=0.2,\
+jpgc-directory-listing=0.3,\
 jpgc-dummy=0.4,\
 jpgc-ffw=2.0,\
 jpgc-fifo=0.2,\
@@ -62,7 +62,7 @@ jpgc-sts=2.4,\
 jpgc-synthesis=2.2,\
 jpgc-tst=2.5,\
 jpgc-udp=0.4,\
-jpgc-webdriver=3.0,\
+jpgc-webdriver=3.1,\
 jpgc-wsc=0.7,\
 jpgc-xml=0.1,\
 jpgc-xmpp=1.5.1,\
@@ -73,7 +73,7 @@ ssh-sampler=1.1.1-SNAPSHOT,\
 tilln-sshmon=1.2,\
 tilln-wssecurity=1.6,\
 websocket-sampler=1.0.2-SNAPSHOT,\
-websocket-samplers=1.2.1 \
+websocket-samplers=1.2.2 \
  && jmeter --version \
  && PluginsManagerCMD.sh status \
  && chmod +x ${JMETER_HOME}/bin/*.sh \
