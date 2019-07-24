@@ -4,8 +4,8 @@ ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
 ENV JSON_LIB_VERSION 2.4
 ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
-ENV NUMBER_OF_FILES_UNDER_LIB 144
-ENV NUMBER_OF_FILES_UNDER_LIB_EXT 76
+ENV NUMBER_OF_FILES_UNDER_LIB 152
+ENV NUMBER_OF_FILES_UNDER_LIB_EXT 77
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
@@ -70,6 +70,7 @@ kafkameter=0.2.0,\
 mqtt-sampler=0.0.1-SNAPSHOT,\
 netflix-cassandra=0.2-SNAPSHOT,\
 ssh-sampler=1.1.1-SNAPSHOT,\
+tilln-iso8583=1.0,\
 tilln-sshmon=1.2,\
 tilln-wssecurity=1.6,\
 websocket-sampler=1.0.2-SNAPSHOT,\
@@ -77,6 +78,6 @@ websocket-samplers=1.2.2 \
  && jmeter --version \
  && PluginsManagerCMD.sh status \
  && chmod +x ${JMETER_HOME}/bin/*.sh \
- # && if [ `ls -l /opt/apache-jmeter-*/lib/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB} ]; then exit -1; fi \
- # && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB_EXT} ]; then exit -1; fi \
+ && if [ `ls -l /opt/apache-jmeter-*/lib/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB} ]; then exit -1; fi \
+ && if [ `ls -l /opt/apache-jmeter-*/lib/ext/ | wc -l` != ${NUMBER_OF_FILES_UNDER_LIB_EXT} ]; then exit -1; fi \
  && rm -fr /tmp/*

@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.2/Dockerfile)
+  * `latest`, `5.1.1-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.2.0/Dockerfile)
+  * `5.1.1-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.2/Dockerfile)
   * `5.1.1-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.1/Dockerfile)
   * `5.1.1-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.0/Dockerfile)
   * `5.1.1-2.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.0.1/Dockerfile)
@@ -352,6 +353,8 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-2.2.0 :
+    * [ISO-8583 Sampler (tilln-iso8583)](https://github.com/tilln/jmeter-iso8583) : add 1.0
   * 5.1.1-2.1.2 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.0 from 1.1.1
     * [Selenium/WebDriver Support (jpgc-webdriver)](https://jmeter-plugins.org/wiki/WebDriverSampler/) : upgrade to 3.1 from 3.0
