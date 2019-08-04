@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.2.0/Dockerfile)
+  * `latest`, `5.1.1-2.2.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.2.1/Dockerfile)
+  * `5.1.1-2.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.2.0/Dockerfile)
   * `5.1.1-2.1.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.2/Dockerfile)
   * `5.1.1-2.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.1/Dockerfile)
   * `5.1.1-2.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.1.0/Dockerfile)
@@ -353,6 +354,8 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-2.2.1 :
+    * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.8 from 2.6.7
   * 5.1.1-2.2.0 :
     * [ISO-8583 Sampler (tilln-iso8583)](https://github.com/tilln/jmeter-iso8583) : add 1.0
   * 5.1.1-2.1.2 :
