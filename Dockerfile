@@ -17,7 +17,7 @@ bzm-hls=1.3,\
 bzm-http2=1.4,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=2.0,\
+bzm-rte=2.1.1,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
 jmeter.backendlistener.elasticsearch=2.6.8,\
@@ -72,7 +72,7 @@ netflix-cassandra=0.2-SNAPSHOT,\
 ssh-sampler=1.1.1-SNAPSHOT,\
 tilln-iso8583=1.0,\
 tilln-sshmon=1.2,\
-tilln-wssecurity=1.6,\
+tilln-wssecurity=1.7,\
 websocket-sampler=1.0.2-SNAPSHOT,\
 websocket-samplers=1.2.2 \
  && jmeter --version \
