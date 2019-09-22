@@ -14,10 +14,10 @@ RUN cd /tmp/ \
  && PluginsManagerCMD.sh install \
 blazemeter-debugger=0.6,\
 bzm-hls=1.3,\
-bzm-http2=1.4,\
+bzm-http2=1.4.1,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=2.1.1,\
+bzm-rte=2.2,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
 jmeter.backendlistener.elasticsearch=2.6.9,\
