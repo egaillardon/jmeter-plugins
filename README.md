@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-3.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.1/Dockerfile)
+  * `latest`, `5.1.1-3.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.3/Dockerfile)
+  * `5.1.1-3.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.2/Dockerfile)
   * `5.1.1-3.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.1/Dockerfile)
   * `5.1.1-3.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.0/Dockerfile)
   * `5.1.1-2.2.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-2.2.2/Dockerfile)
@@ -358,6 +359,8 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.1.1
+  * 5.1.1-3.0.3 :
+    * * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 2.0 from 1.3
   * 5.1.1-3.0.2 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.2 from 2.1.1
     * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.4.1 from 1.4
