@@ -33,8 +33,13 @@
 
 ### Supported tags and respective `Dockerfile` links
 
+* Apache JMeter 5.2 (see changelog below)
+  * `latest`, `5.2.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.0-1.0.0/Dockerfile)
+
+
 * Apache JMeter 5.1.1 (see changelog below)
-  * `latest`, `5.1.1-3.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.3/Dockerfile)
+  * **No more new 5.1.1 version (11/10/2019)**
+  * `5.1.1-3.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.3/Dockerfile)
   * `5.1.1-3.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.2/Dockerfile)
   * `5.1.1-3.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.1/Dockerfile)
   * `5.1.1-3.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.0/Dockerfile)
@@ -357,6 +362,11 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ```
 
 ## Changelog
+
+* Apache JMeter 5.2
+  * 5.2.0-1.0.0 :
+    * Change docker base image version to `egaillardon/jmeter:5.2.0-1.0.0`
+
 
 * Apache JMeter 5.1.1
   * 5.1.1-3.0.3 :

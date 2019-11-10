@@ -1,11 +1,11 @@
-FROM egaillardon/jmeter:5.1.1-2.0.0
+FROM egaillardon/jmeter:5.2.0-1.0.0
 LABEL maintainer="emmanuel.gaillardon@orange.fr"
 ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
 ENV JSON_LIB_VERSION 2.4
 ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
-ENV NUMBER_OF_FILES_UNDER_LIB 152
-ENV NUMBER_OF_FILES_UNDER_LIB_EXT 77
+ENV NUMBER_OF_FILES_UNDER_LIB 161
+ENV NUMBER_OF_FILES_UNDER_LIB_EXT 78
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
