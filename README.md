@@ -33,12 +33,17 @@
 
 ### Supported tags and respective `Dockerfile` links
 
+* Apache JMeter 5.2.1 (see changelog below)
+  * `latest`, `5.2.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.0.0/Dockerfile)
+
+
 * Apache JMeter 5.2 (see changelog below)
-  * `latest`, `5.2.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.0-1.0.0/Dockerfile)
+  * **No more new 5.2.0 update (01/26/2020)**
+  * `5.2.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.0-1.0.0/Dockerfile)
 
 
 * Apache JMeter 5.1.1 (see changelog below)
-  * **No more new 5.1.1 version (11/10/2019)**
+  * **No more new 5.1.1 update (11/10/2019)**
   * `5.1.1-3.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.3/Dockerfile)
   * `5.1.1-3.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.2/Dockerfile)
   * `5.1.1-3.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.1-3.0.1/Dockerfile)
@@ -59,14 +64,14 @@
 
 
 * Apache JMeter 5.1 (see changelog below)
-  * **No more new 5.1 version (03/31/2019)**
+  * **No more new 5.1 update (03/31/2019)**
   * `5.1.0-1.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.2/Dockerfile)
   * `5.1.0-1.0.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.1/Dockerfile)
   * `5.1.0-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.1.0-1.0.0/Dockerfile)
 
 
 * Apache JMeter 5.0 (see changelog below)
-  * **No more new 5.0 version (02/20/2019)**
+  * **No more new 5.0 update (02/20/2019)**
   * `5.0.0-6.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.4/Dockerfile-jmeter5-plugins)
   * `5.0.0-6.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.3/Dockerfile-jmeter5-plugins)
   * `5.0.0-6.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.0.0-6.0.2/Dockerfile-jmeter5-plugins)
@@ -84,7 +89,7 @@
 
 
 * Apache JMeter 4.0 (see changelog below)
-  * **No more new 4.0 version (02/20/2019)**
+  * **No more new 4.0 update (02/20/2019)**
   * `4.0.0-6.0.4` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.4/Dockerfile-jmeter4-plugins)
   * `4.0.0-6.0.3` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.3/Dockerfile-jmeter4-plugins)
   * `4.0.0-6.0.2` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/4.0.0-6.0.2/Dockerfile-jmeter4-plugins)
@@ -362,6 +367,12 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ```
 
 ## Changelog
+
+* Apache JMeter 5.2.1
+  * 5.2.1-1.0.0 :
+    * Change docker base image version to `egaillardon/jmeter:5.2.1-1.0.0`
+    * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.2.1 from 2.2
+
 
 * Apache JMeter 5.2
   * 5.2.0-1.0.0 :
