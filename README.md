@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.2.1 (see changelog below)
-  * `latest`, `5.2.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.0.0/Dockerfile)
+   * `latest`, `5.2.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
+   * `5.2.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.0.0/Dockerfile)
 
 
 * Apache JMeter 5.2 (see changelog below)
@@ -369,6 +370,8 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.2.1
+  * 5.2.1-1.1.0 :
+    * [JMeter Citrix plugin (bzm-jmeter-citrix-plugin)](https://github.com/Blazemeter/CitrixPlugin/blob/master/README.md) : add 0.5.5
   * 5.2.1-1.0.0 :
     * Change docker base image version to `egaillardon/jmeter:5.2.1-1.0.0`
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.2.1 from 2.2

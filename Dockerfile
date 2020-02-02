@@ -5,7 +5,7 @@ ENV CMDRUNNER_VERSION 2.2
 ENV JSON_LIB_VERSION 2.4
 ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
 ENV NUMBER_OF_FILES_UNDER_LIB 161
-ENV NUMBER_OF_FILES_UNDER_LIB_EXT 78
+ENV NUMBER_OF_FILES_UNDER_LIB_EXT 79
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
@@ -15,6 +15,7 @@ RUN cd /tmp/ \
 blazemeter-debugger=0.6,\
 bzm-hls=2.0,\
 bzm-http2=1.4.1,\
+bzm-jmeter-citrix-plugin=0.5.5,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
 bzm-rte=2.2.1,\
