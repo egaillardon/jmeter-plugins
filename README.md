@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.2.1 (see changelog below)
-   * `latest`, `5.2.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
+   * `latest`, `5.2.1-1.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
+   * `5.2.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
    * `5.2.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.0.0/Dockerfile)
 
 
@@ -370,6 +371,9 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.2.1
+  * 5.2.1-1.1.1 :
+    * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 3.0 from 2.0
+    * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-http2-plugin/blob/master/README.md) : upgrade to 1.5 from 1.4.1
   * 5.2.1-1.1.0 :
     * [JMeter Citrix plugin (bzm-jmeter-citrix-plugin)](https://github.com/Blazemeter/CitrixPlugin/blob/master/README.md) : add 0.5.5
   * 5.2.1-1.0.0 :
@@ -384,7 +388,7 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 
 * Apache JMeter 5.1.1
   * 5.1.1-3.0.3 :
-    * * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 2.0 from 1.3
+    * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 2.0 from 1.3
   * 5.1.1-3.0.2 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.2 from 2.1.1
     * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-bzm-plugins/blob/master/http2/README.md) : upgrade to 1.4.1 from 1.4
