@@ -375,7 +375,7 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
   * 5.2.1-1.2.0 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.3 from 2.2.1
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.10 from 2.6.9
-    * [Jmeter Backend Azure (jmeter.backendlistener.azure)](https://github.com/adrianmo/jmeter-backend-azure) : add 0.5.5
+    * [Jmeter Backend Azure (jmeter.backendlistener.azure)](https://github.com/adrianmo/jmeter-backend-azure) : add 0.2.0
   * 5.2.1-1.1.1 :
     * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 3.0 from 2.0
     * [HTTP/2 Sampler (bzm-http2)](https://github.com/Blazemeter/jmeter-http2-plugin/blob/master/README.md) : upgrade to 1.5 from 1.4.1
