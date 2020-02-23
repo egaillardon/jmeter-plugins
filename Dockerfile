@@ -4,8 +4,8 @@ ENV JMETER_PLUGINS_MANAGER_VERSION 1.3
 ENV CMDRUNNER_VERSION 2.2
 ENV JSON_LIB_VERSION 2.4
 ENV JSON_LIB_FULL_VERSION ${JSON_LIB_VERSION}-jdk15
-ENV NUMBER_OF_FILES_UNDER_LIB 162
-ENV NUMBER_OF_FILES_UNDER_LIB_EXT 79
+ENV NUMBER_OF_FILES_UNDER_LIB 166
+ENV NUMBER_OF_FILES_UNDER_LIB_EXT 80
 RUN cd /tmp/ \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/ext/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/jmeter-plugins-manager/${JMETER_PLUGINS_MANAGER_VERSION}/jmeter-plugins-manager-${JMETER_PLUGINS_MANAGER_VERSION}.jar \
  && curl --location --silent --show-error --output ${JMETER_HOME}/lib/cmdrunner-${CMDRUNNER_VERSION}.jar http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/${CMDRUNNER_VERSION}/cmdrunner-${CMDRUNNER_VERSION}.jar \
@@ -18,10 +18,11 @@ bzm-http2=1.5,\
 bzm-jmeter-citrix-plugin=0.5.5,\
 bzm-parallel=0.9,\
 bzm-random-csv=0.6,\
-bzm-rte=2.2.1,\
+bzm-rte=2.3,\
 bzm-siebel=0.1.0-beta,\
 custom-soap=1.3.3,\
-jmeter.backendlistener.elasticsearch=2.6.9,\
+jmeter.backendlistener.azure=0.2.0,\
+jmeter.backendlistener.elasticsearch=2.6.10,\
 jmeter.backendlistener.kafka=1.0.0,\
 jmeter.pack-listener=1.7,\
 jpgc-autostop=0.1,\
