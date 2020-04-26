@@ -34,7 +34,7 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.2.1 (see changelog below)
-   * `latest`, `5.2.1-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.3.0/Dockerfile)
+   * `latest`, `5.2.1-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-2.0.0/Dockerfile)
    * `5.2.1-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.2.0/Dockerfile)
    * `5.2.1-1.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.1/Dockerfile)
    * `5.2.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
