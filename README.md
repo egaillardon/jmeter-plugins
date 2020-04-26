@@ -34,7 +34,8 @@
 ### Supported tags and respective `Dockerfile` links
 
 * Apache JMeter 5.2.1 (see changelog below)
-   * `latest`, `5.2.1-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.2.0/Dockerfile)
+   * `latest`, `5.2.1-2.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.3.0/Dockerfile)
+   * `5.2.1-1.2.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.2.0/Dockerfile)
    * `5.2.1-1.1.1` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.1/Dockerfile)
    * `5.2.1-1.1.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.1.0/Dockerfile)
    * `5.2.1-1.0.0` [(Dockerfile)](https://github.com/egaillardon/jmeter-plugins/blob/5.2.1-1.0.0/Dockerfile)
@@ -372,6 +373,13 @@ docker run -e DISPLAY=host.docker.internal:0 --interactive --tty --rm egaillardo
 ## Changelog
 
 * Apache JMeter 5.2.1
+  * 5.2.1-2.0.0 :
+    * [Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) : upgrade to 1.4 from 1.3
+    * [HLS Sampler (bzm-hls)](https://github.com/Blazemeter/HLSPlugin/blob/master/README.md) : upgrade to 3.0.1 from 3.0
+    * [Jmeter Backend Azure (jmeter.backendlistener.azure)](https://github.com/adrianmo/jmeter-backend-azure) : upgrade to 0.2.1 from 0.2.0
+    * [Jmeter GCP PubSub Sampler (jmeter-pubsub-sampler)](https://github.com/rollno748/Jmeter-pubsub-sampler) : add 1.0
+    * [JMXMon Sample Collector (jpgc-jmxmon)](https://jmeter-plugins.org/wiki/JMXMon/) : upgrade to 0.3 from 0.2
+    * [ISO-8583 Sampler (tilln-iso8583)](https://github.com/tilln/jmeter-iso8583) : upgrade to 1.1 from 1.0
   * 5.2.1-1.2.0 :
     * [RTE Protocol Support (bzm-rte)](https://github.com/Blazemeter/RTEPlugin/blob/master/README.md) : upgrade to 2.3 from 2.2.1
     * [ElasticSearch backend listener (jmeter.backendlistener.elasticsearch)](https://github.com/delirius325/jmeter-elasticsearch-backend-listener) : upgrade to 2.6.10 from 2.6.9
